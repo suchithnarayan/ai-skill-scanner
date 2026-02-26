@@ -3,3 +3,4 @@
 .env.*
 *.pyc
 sample-skill/*
+__pycache__/
