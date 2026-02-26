@@ -57,16 +57,9 @@ python -m scanner --marketplace https://github.com/org/plugins --ai-provider ope
 
 ---
 
-## How It Works
+## Architecture
 
-```
-1. Parse plugin       → Discover components (skills, hooks, MCPs, scripts, agents, etc.)
-2. AI component scan  → LLM analyzes each component in parallel (17 security categories)
-3. AI triage          → Evidence-based cross-check removes false positives
-4. (Optional) Static  → 235 YAML rules + 11 analyzers + triage (if --static)
-5. Compute verdict    → SAFE (no malicious findings) or UNSAFE
-6. Generate report    → Malicious findings first, then code security issues
-```
+![Architecture](media/architecture.png)
 
 ### Finding Classification
 
