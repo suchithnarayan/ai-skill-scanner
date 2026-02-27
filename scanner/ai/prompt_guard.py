@@ -3,6 +3,10 @@ Prompt injection protection for AI-powered analysis.
 
 Prevents malicious plugin content from manipulating the LLM analyzer
 by using random delimiters and pre-send injection detection.
+
+The UNTRUSTED_INPUT_START/END delimiter tag convention originates from
+cisco-ai-defense/skill-scanner (https://github.com/cisco-ai-defense/skill-scanner)
+by Cisco Systems, Inc. Licensed under Apache-2.0.
 """
 
 import re
