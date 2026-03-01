@@ -286,8 +286,6 @@ See [CONTRIBUTORS.md](CONTRIBUTORS.md).
 - **Prompt injection delimiter technique** — The `UNTRUSTED_INPUT_START/END` delimiter convention used in `scanner/ai/prompt_guard.py` originates from [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) by Cisco Systems, Inc., licensed under Apache-2.0.
 - **Static analysis rule patterns** — Some YAML rule regex patterns (e.g. `eval\s*\(`, `os\.system\s*\(`, `shell\s*=\s*True`) are common across the security tooling ecosystem and are also present in the Cisco project. We acknowledge their prior use there.
 
-We thank the Cisco AI Defense team for their open-source contributions.
-
 ---
 
 ## License
